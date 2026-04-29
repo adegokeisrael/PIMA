@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────────────────
+# Requirements for PIMA Diabetes ANN — Streamlit App
+# Generated from brain-ann.ipynb notebook dependencies
+# ──────────────────────────────────────────────────────────────
+
+# Web app framework
+streamlit>=1.35.0
+
+# Deep learning
+tensorflow>=2.15.0,<2.17.0          # Keras is bundled since TF 2.x
+
+# Data & ML
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.4.0
+
+# Serialisation (stdlib — listed for clarity)
+# pickle  ← built-in, no install needed
